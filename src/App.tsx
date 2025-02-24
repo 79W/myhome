@@ -15,7 +15,7 @@ function App() {
       <div className="content_img">
         <img src={reactLogo} />
       </div>
-      <div className="content_txt">qiao.ge</div>
+      <div className="content_txt">i@qiao.ge</div>
     </div>
   );
 }
