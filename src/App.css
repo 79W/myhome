@@ -1,0 +1,43 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  scrollbar-width: none;
+}
+
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+.content_video {
+  width: 100vw;
+  height: 100vh;
+}
+
+.content_img {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  inset: 0;
+  mix-blend-mode: multiply;
+}
+
+.content_img img {
+  width: 50rem;
+  height: 50rem;
+}
+
+.content_txt {
+  text-align: center;
+  position: absolute;
+  bottom: 1rem;
+  font-size: 2rem;
+  color: #fff;
+}

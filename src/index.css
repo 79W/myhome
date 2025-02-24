@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url("./assets/zkcjh-Heavy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  scrollbar-width: none;
+  font-family: "CustomFont", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
